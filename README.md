@@ -2,7 +2,7 @@
 #### Bypassing image uploader use PHP-GD
 #### Bypassing Via Injecting RCE Code In Image 
 
-## Ubah Payload/Kode yang ingin di inject ke gambar di LINE 8
+## Ubah gd.php dan ganti Payload/Kode yang ingin di inject ke gambar di LINE 8
 
 ```
 $miniPayload = 'taruh payloadmu disini';
